@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Condensed&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+    background-image: url("../assets/hero.png");
+    background-repeat: no-repeat;
+    border-color: #000000;
+    border-width: 1px;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+    height: 324px;
+    padding: 40px 139px 0 139px;
+}
+
+.topHero {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    max-width: 1088px;
+    margin: 0 auto;
+}
+
+.topHero h2 {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.topHero ul {
+    display: flex;
+    gap: 50px;
+    font-size: large;
+}
+
+.topHero li:first-child {
+    color: #5863f8;
+}
+
+.topHero li:nth-child(2) {
+    display: flex;
+}
+
+.topHero li:nth-child(2) img {
+    margin-left: 6px;
+}
+
+.bottomHero {
+    max-width: 1088px;
+    margin: 0 auto;
+    margin-top: 95px;
+}
+
+.bottomHero h1 {
+    font-size: 42px;
+    font-weight: normal;
+    line-height: 56px;
+    font-style: normal;
+    color: #ffffff;   
+}
+
+.bottomHero p {
+    margin-top: 13px;
+    color: #ffffff;
+}
+
+.rooms {
+    max-width: 1088px;
+    margin: 0 auto;
+    margin-top: 90px; 
+    margin-bottom: 71px;
+}
+
+.rooms span {
+    font-weight: bold;
+    color: #5863f8;
+}
+
+.rooms h2 {
+    width: 353px;
+    font-size: 42px;
+    font-weight: normal;
+    line-height: 56px;
+    font-style: normal;
+    color: #000000;
+    margin-bottom: 49px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.box {
+    display: flex;
+    background: #f8f8f8;
+    width: 49%;
+}
+
+.box h4 {
+    font-size: 18px;
+    font-style: normal;
+    color: #000000;
+}
+
+.box p {
+    width: 260px;
+    font-size: 14px;
+    color: #b1b1b1;
+    margin-top: 9px;
+}
+
+.data {
+    margin: 37px 32px 36px 16px;
+}
+
+.box button {
+    width: 60px;
+    background: #5863f8;
+    border: none;
+    cursor: pointer;
+}
+
+.booking {
+    max-width: 1088px;
+    margin: 0 auto;
+}
+
+.booking form {
+    display: flex;
+    justify-content: space-between;
+}
