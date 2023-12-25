@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HW6|Homepage</title>
-    <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
 </head>
+
 <body>
     <header>
         <section class="hero">
             <div class="topHero">
-                <h2 class="logo">Zetta Hotels</h1>
+                <h2 class="logo">Zetta Hotels</h2>
                 <nav>
                     <ul>
                         <li>
@@ -19,7 +21,7 @@
                         </li>
                         <li>
                             <a href="#">Rooms</a>
-                            <img src="./assets/chevron-down.svg" alt="arrow">
+                            <img src="./assets/chevron-down.svg" alt="arrow" />
                         </li>
                         <li>
                             <a href="#">About us</a>
@@ -35,12 +37,18 @@
             </div>
             <div class="bottomHero">
                 <h1>Rooms</h1>
-                <p>
-                    <a href="#">Home | </a>
-                    <a href="#">Rooms</a>
-                </p>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#">Home | </a>
+                        </li>
+                        <li>
+                            <a href="#">Rooms</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-        </section>     
+        </section>
     </header>
 
     <main>
@@ -49,79 +57,163 @@
             <h2>Trust and quality are our atuus</h2>
             <div class="container">
                 <div class="box">
-                    <img src="./assets/first.png" alt="">
+                    <img src="./assets/first.png" alt />
                     <div class="data">
                         <span>Big</span>
                         <h4>Spacious Room</h4>
-                        <p>The most spacious room you will ever see in our hotel. Equipped with span and warm beds</p>
+                        <p>
+                            The most spacious room you will ever see in our hotel. Equipped
+                            with span and warm beds
+                        </p>
                     </div>
                     <button type="button">-></button>
                 </div>
 
                 <div class="box">
-                    <img src="./assets/second.png" alt="">
+                    <img src="./assets/second.png" alt />
                     <div class="data">
                         <span>Small</span>
                         <h4>Small Cheap Room</h4>
-                        <p>Smallest and the most economic room in our hotel. Save an extra buck for your holiday</p>
+                        <p>
+                            Smallest and the most economic room in our hotel. Save an extra
+                            buck for your holiday
+                        </p>
                     </div>
                     <button type="button">-></button>
                 </div>
 
                 <div class="box">
-                    <img src="./assets/first.png" alt="">
+                    <img src="./assets/first.png" alt />
                     <div class="data">
                         <span>Big</span>
                         <h4>Spacious Room</h4>
-                        <p>The most spacious room you will ever see in our hotel. Equipped with span and warm beds</p>
+                        <p>
+                            The most spacious room you will ever see in our hotel. Equipped
+                            with span and warm beds
+                        </p>
                     </div>
                     <button type="button">-></button>
                 </div>
 
                 <div class="box">
-                    <img src="./assets/second.png" alt="">
+                    <img src="./assets/second.png" alt />
                     <div class="data">
                         <span>Small</span>
                         <h4>Small Cheap Room</h4>
-                        <p>Smallest and the most economic room in our hotel. Save an extra buck for your holiday</p>
+                        <p>
+                            Smallest and the most economic room in our hotel. Save an extra
+                            buck for your holiday
+                        </p>
                     </div>
                     <button type="button">-></button>
                 </div>
 
                 <div class="box">
-                    <img src="./assets/first.png" alt="">
+                    <img src="./assets/first.png" alt />
                     <div class="data">
                         <span>Big</span>
                         <h4>Spacious Room</h4>
-                        <p>The most spacious room you will ever see in our hotel. Equipped with span and warm beds</p>
+                        <p>
+                            The most spacious room you will ever see in our hotel. Equipped
+                            with span and warm beds
+                        </p>
                     </div>
                     <button type="button">-></button>
                 </div>
 
                 <div class="box">
-                    <img src="./assets/second.png" alt="">
+                    <img src="./assets/second.png" alt />
                     <div class="data">
                         <span>Small</span>
                         <h4>Small Cheap Room</h4>
-                        <p>Smallest and the most economic room in our hotel. Save an extra buck for your holiday</p>
+                        <p>
+                            Smallest and the most economic room in our hotel. Save an extra
+                            buck for your holiday
+                        </p>
                     </div>
                     <button type="button">-></button>
                 </div>
             </div>
         </section>
 
-        <section class="booking">
+        <div class="booking">
             <form action="#">
-                <input type="date">
-                <input type="date">
-                <input type="number">
-                <button type="submit">Submit</button>
+                <div>
+                    <label for="check-in">Check in date</label>
+                    <input type="date" id="check-in"/>
+                </div>
+                <div>
+                    <label for="check-out">Check out date</label>
+                    <input type="date" id="check-out"/>
+                </div>
+                <div>
+                    <label for="rooms">Rooms</label>
+                    <input type="number" id="rooms" placeholder="rooms" />
+                </div>
+                <button type="submit">
+                    Submit
+                    <img src="./assets/send.png" alt="airplane" />
+                </button>
             </form>
-        </section>
+        </div>
     </main>
 
     <footer>
-
+        <div class="footer">
+            <div class="leftFooter">
+                <h2>Zetta Hotels</h2>
+                <p>
+                    Our hotel is an image of quality and profesionalism combined with
+                    hard work and precision. You can expect only the best services from
+                    our staff.
+                </p>
+            </div>
+            <nav>
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Blog</li>
+                    <li>Rooms</li>
+                    <li>Gift Cards</li>
+                    <li>Testimonials</li>
+                </ul>
+            </nav>
+            <nav>
+                <h3>Privacy</h3>
+                <ul>
+                    <li>Career</li>
+                    <li>About us</li>
+                    <li>Contact Us</li>
+                    <li>Services</li>
+                </ul>
+            </nav>
+            <nav>
+                <h3>Contact Info</h3>
+                <ul>
+                    <li>
+                        <a href="mailto:example@yahoo.com" target="_blank">
+                            example@yahoo.com
+                        </a>
+                    </li>
+                    <li>
+                        <img src="./assets/phone.png" alt="phone" />
+                        <a href="tel:+032042242549" target="_blank">+0 320 422 4254</a>
+                    </li>
+                    <li>
+                        <img src="./assets/location.png" alt="location">
+                        <a href="#" target="_blank">
+                            Main Str Chicago Ilinois</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="copyright">
+            <p>
+                Copyright ©2020 All rights reserved | This template is made with love
+                by Marian
+            </p>
+            <a href="#">www.portfolioname.com</a>
+        </div>
     </footer>
 </body>
+
 </html>

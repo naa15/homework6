@@ -10,7 +10,7 @@ body {
     border-color: #000000;
     border-width: 1px;
     background-size: cover;
-    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .6);
     height: 324px;
     padding: 40px 139px 0 139px;
 }
@@ -57,18 +57,22 @@ body {
     font-weight: normal;
     line-height: 56px;
     font-style: normal;
-    color: #ffffff;   
+    color: #ffffff;
 }
 
-.bottomHero p {
-    margin-top: 13px;
+.bottomHero ul {
+    margin-top: 21px;
+}
+
+.bottomHero li {
     color: #ffffff;
+    display: inline;
 }
 
 .rooms {
     max-width: 1088px;
     margin: 0 auto;
-    margin-top: 90px; 
+    margin-top: 90px;
     margin-bottom: 71px;
 }
 
@@ -124,11 +128,111 @@ body {
 }
 
 .booking {
-    max-width: 1088px;
-    margin: 0 auto;
+    background-color: #F8F8F8;
 }
 
 .booking form {
+    max-width: 1088px;
+    margin: 0 auto;
     display: flex;
+    height: 190px;
     justify-content: space-between;
+    align-items: center;
+}
+
+.booking form div {
+    display: flex;
+    flex-direction: column;
+}
+
+.booking form label {
+    font-size: 13px;
+    margin-bottom: 6px;
+    color: #5863f8;
+}
+
+.booking form input {
+    width: 260px;
+    height: 60px;
+    border-color: #ebebeb;
+    border-width: 2px;
+    border-style: solid;
+    text-indent: 10px;
+    background: #ffffff
+}
+
+.booking form button {
+    width: 260px;
+    height: 60px;
+    border: none;
+    color: white;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    background: #5863f8
+}
+
+footer {
+    border-color: #000000;
+    border-width: 1px;
+    border-style: dashed;
+    background: #121212;
+    height: 395px;
+}
+
+.footer {
+    max-width: 1088px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 93px;
+    justify-content: space-between;
+}
+
+.leftFooter h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.leftFooter p {
+    width: 260px;
+    font-size: 14px;
+    color: #b1b1b1;
+    margin-top: 22px;
+}
+
+.footer h3 {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 23px;
+}
+
+.footer li {
+    font-size: 14px;
+    color: #5863f8;
+    margin-bottom: 13px;
+}
+
+.copyright {
+    max-width: 1088px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 93px;
+    justify-content: space-between;
+}
+
+.copyright p {
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: left;
+    color: #B1B1B1;
+
+}
+
+.copyright a {
+    font-size: 14px;
+    color: #5863f8;
 }
