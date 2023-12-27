@@ -129,15 +129,17 @@ body {
 
 .booking {
     background-color: #F8F8F8;
+    margin-bottom: 6px;
 }
 
 .booking form {
     max-width: 1088px;
     margin: 0 auto;
+    padding-bottom: 59px;
     display: flex;
     height: 190px;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .booking form div {
